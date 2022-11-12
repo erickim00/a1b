@@ -4,15 +4,22 @@
     color: #005457;
     margin:0;
  }
+ main{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+ }
  header{
     text-align: center;
  }
  aside{
     background-color: #faf4ed;
+    grid-column: 1;
+    grid-row: 1/-1;
     text-align: center;
  }
 aside ul{
     list-style: square;
     text-align: left;
 }
-
