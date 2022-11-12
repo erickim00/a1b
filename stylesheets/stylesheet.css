@@ -11,4 +11,8 @@
     background-color: #faf4ed;
     text-align: center;
  }
+aside ul{
+    list-style: square;
+    text-align: left;
+}
 
