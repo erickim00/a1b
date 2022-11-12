@@ -4,3 +4,11 @@
     color: #005457;
     margin:0;
  }
+ header{
+    text-align: center;
+ }
+ aside{
+    background-color: #faf4ed;
+    text-align: center;
+ }
+
